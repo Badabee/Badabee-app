@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Car from './components/Car';
+import Book from './components/Book';
+import HelloButton from './components/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*<Car brand='Toyota' model='Prado' color='Black' year='2010' /> <br></br>
+      <Car brand='Honda' model='Civic' color='Torquoise' year='2014' /> <br></br>
+      <Car brand='Hyundai' model='Solantra' color='Magento' year='2012' /> <br></br>
+  <Car brand='Nissan' model='Avensis' color='Lavender' year='2015' /> <br></br>*/}
+  {/*<Book /> */}
+
+  <HelloButton />
     </div>
-  );
+    );
 }
 
 export default App;
